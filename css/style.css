@@ -1,0 +1,291 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #252525e8;
+  text-align: center;
+}
+header.steaky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 5rem;
+  font-size: 16px;
+  color: #25252511;
+  text-decoration: none;
+  white-space: nowrap;
+  opacity: 1;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 150px;
+  background-color: beige;
+}
+
+.main {
+  width: 100%;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 70vh;
+  margin-top: 3rem;
+}
+
+.menue {
+  color: #212529;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 2%;
+  font-size: 1.25rem;
+  position: relative;
+  align-items: center;
+}
+
+.name {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 18px !important;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.link {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 0.5rem;
+}
+
+.link:hover,
+.link:focus {
+  color: #d5084b;
+}
+
+.cartNum {
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  position: relative;
+  top: -1px;
+  color: #000 !important;
+  padding: 1em;
+  font-size: 0.6em;
+  background-color: #00caed;
+}
+
+form.search {
+  display: flex !important;
+  margin-left: auto !important;
+  outline-offset: -2px;
+  align-items: baseline;
+}
+input.search {
+  height: max-content;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #212529;
+  border-radius: 0.3tem;
+}
+
+button,
+a.AsButton {
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffff;
+  background-color: #071c3b;
+  border-width: 0.5;
+  border-color: #051227;
+  border-radius: 0.3%;
+  opacity: 0.65;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  top: -1px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #051227;
+}
+
+button:focus {
+  outline: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  width: 100%;
+  text-align: center !important;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  align-content: center;
+  align-items: center;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.items {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.item {
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 25%;
+  color: #000;
+  word-wrap: break-word;
+  background-color: beige;
+  border: 2px solid #212529;
+}
+
+.item > img {
+  height: 30vh;
+  width: auto;
+  align-self: center;
+  box-shadow: #d5084b 2px 2px 5px;
+  margin: 10px;
+  border-radius: 0.4em;
+  max-width: 100%;
+}
+
+.info {
+  flex: 1 1 auto;
+  padding: 0.5rem;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.msg {
+  position: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: beige;
+  border: 1px;
+  border-radius: 0.3rem;
+  border-color: #da0844;
+  width: 75%;
+}
+
+.logging {
+  height: 100vh;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  width: 50% !important;
+}
+
+div.m {
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+  float: left;
+}
+.table,
+tbody,
+th,
+td {
+  text-align: center;
+  vertical-align: middle;
+  border: 0.5px solid rgba(0, 0, 0, 0.637);
+}
+
+a {
+  color: #da0844;
+  text-decoration: underline;
+}
+
+a.red {
+  cursor: pointer;
+  background-color: #fd0339 !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.table > tbody > tr > td:nth-child(4) {
+  width: 30%;
+}
+
+table {
+  border-collapse: collapse;
+}
+tr {
+  height: 8vh;
+}
+
+table > tbody > tr > td:nth-child(1) {
+  width: 10vh;
+}
